@@ -43,9 +43,7 @@ public class HashTagTokenizer {
 				System.out.println(prefix);
 				breakHashTag(hashtag.substring(i), dictionary);
 				return;
-			} else {
-				prefix = hashtag.substring(0, i );
-			}
+			 }
         }
     }
 
